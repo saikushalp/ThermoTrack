@@ -1,7 +1,16 @@
 # ThermoTrack
-Real time temperature monitoring application
+Real time temperature monitoring system
  <blockquote class="text-justify">
-        <span class="h2">Thermo Track</span> offers a most effectual remote temperature monitoring system built using .Net technology.
+        <span style="font-size:x-large;">Thermo Track</span> offers a most effectual remote temperature monitoring system built using .Net technology.
         This system offers a current temperature reading of the Thermo Track Sensor, which usually transmits data for every 2 seconds along with
-        time-series graphical view for temperature with minumum, maximum and average temperature values calculated for the last 20 recordings on the dashboard.
-        </blockquote>
+        time-series graphical view for temperature with minumum, maximum and average temperature values calculated for the last 20 readings on the dashboard.
+ </blockquote>
+
+### Technologies Used:
+
+1) ASP.Net MVC 5 (for display of Sensor real time data)
+2) SignalR
+3) Console Application (acts a Sensor which transmits data)
+4) JQuery
+
+### ScreenShot
