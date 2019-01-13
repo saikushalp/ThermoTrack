@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
 
+    //Adding the minimum and maximum public functions to Array object using prototype
     Array.prototype.max = function () {
         return Math.max.apply(null, this);
     };
