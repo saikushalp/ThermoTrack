@@ -14,3 +14,7 @@ Real time temperature monitoring system
 4) JQuery
 
 ### ScreenShot
+![Dashboard](https://user-images.githubusercontent.com/27807217/51086385-5024b300-176c-11e9-97de-b4640575e640.jpg)
+
+### NOTE
+### This application is best viewed in Google Chrome
