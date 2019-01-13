@@ -14,18 +14,18 @@ namespace TemperatureTrackingSystem.Server
         #region Main Method
         static void Main(string[] args)
         {
-            Console.WriteLine("Temperature Tracking System Sensor Started");
+            Console.WriteLine("Thermo Track Sensor Started");
 
-            Console.WriteLine("Press any Key to exit Temperature Tracking System");
+            Console.WriteLine("Press any Key to stop Thermo Track Sensor");
 
             Console.WriteLine("_____________________________________________\n");
 
             string url = "http://localhost:8026"; //SignalR self hosting URL
             using (WebApp.Start(url))
             {
-                Console.WriteLine("Server running on {0}", url);
-                _timer = new Timer();
+                Console.WriteLine("Sensor started communication on {0} \n", url);
 
+                _timer = new Timer();
                 _timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
                 _timer.Interval = 2000; //number in milisecinds  
                 _timer.Enabled = true;
