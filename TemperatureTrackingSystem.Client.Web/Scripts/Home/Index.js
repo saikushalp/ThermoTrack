@@ -43,6 +43,10 @@
     // Declare a proxy to reference the hub.
     var chat = $.connection.sensorHub;
 
+    if (typeof chat === "undefined") {
+        alert("Error occured while connecting to Sensor. Make sure Sensor application is running and try reloading the page");
+    }
+
     // Create a function that the hub can respond to broadcast messages.
     chat.client.addMessage = function (temperature, recordedDateTime) {
 
