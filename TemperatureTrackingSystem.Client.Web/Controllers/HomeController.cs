@@ -17,11 +17,10 @@ namespace TemperatureTrackingSystem.Client.Web.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {           
-            return View();
-        }
-
+        /// <summary>
+        /// Action Method used to dispaly Contact page
+        /// </summary>
+        /// <returns>View</returns>
         public ActionResult Contact()
         {
             return View();
