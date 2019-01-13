@@ -10,7 +10,7 @@ Real time temperature monitoring system
 
 1) ASP.Net MVC 5 (for display of Sensor real time data)
 2) SignalR
-3) Console Application (acts a Sensor which transmits data)
+3) Console Application (acts a Sensor which generates temperature between 10 to 50 and transmits for every 2 seconds)
 4) JQuery
 
 ### SETUP
