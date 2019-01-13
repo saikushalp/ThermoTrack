@@ -14,7 +14,7 @@ Real time temperature monitoring system
 4) JQuery
 
 ### SETUP
-1) After getting the code from git to your local machine. Open the solution in the Visual Studio.
+1) After pulling the code from git to your local machine. Open the solution in the Visual Studio.
 2) Now right click on solution and select **`Set Startup Projects`** as below.
 ![solution right click](https://user-images.githubusercontent.com/27807217/51087050-240d3000-1774-11e9-8ba4-45e1de521360.png)
 3) In the opened dialog select **`Multiple Startup Projects`** radio button and choose **`Start`** form the Action column against both the projects and click **`Apply`** and **`OK`** buttons.
