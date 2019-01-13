@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row" style="margin-top:20px;">
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-body bg-info text-center">
+                <h4 class="card-title">Minimum Temp.</h4>
+                <h2 id="minTemp" class="card-text">NA</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-body bg-info text-center">
+                <h4 class="card-title">Maximum Temp.</h4>
+                <h2 id="maxTemp" class="card-text">NA</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-body bg-info text-center">
+                <h4 class="card-title">Average Temp.</h4>
+                <h2 id="avgTemp" class="card-text">NA</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" style="margin-top:20px">
+    <div class="col-md-5">
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="font-size:large">Temperature</div>
+            <div class="panel-body text-center">
+                <div id="gaugeDemo" class="gauge gauge-big gauge-blue">
+                    <div class="gauge-arrow" data-percentage="20" style="transform: rotate(-90deg);"></div>
+                </div>
+                <div class="" style="padding-top:22px">
+                    <h1 id="currentTemp">NA</h1>
+                    <h5 style="padding-top:20px">Last synced at <span id="recordedDateTime">NA</span> </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="font-size:large">History</div>
+            <div class="panel-body">
+                <div id="chartContainer" style="height: 258px; width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/Home/Index.js"></script>
