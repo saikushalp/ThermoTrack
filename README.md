@@ -13,6 +13,14 @@ Real time temperature monitoring system
 3) Console Application (acts a Sensor which transmits data)
 4) JQuery
 
+### SETUP
+1) After getting the code from git to your local machine. Open the solution in the Visual Studio.
+2) Now right click on solution and select **`Set Startup Projects`** as below.
+![solution right click](https://user-images.githubusercontent.com/27807217/51087050-240d3000-1774-11e9-8ba4-45e1de521360.png)
+3) In the opened dialog select **`Multiple Startup Projects`** radio button and choose **`Start`** form the Action column against both the projects and click **`Apply`** and **`OK`** buttons.
+![startup projects](https://user-images.githubusercontent.com/27807217/51087078-63d41780-1774-11e9-8035-82e7a132a4c0.png)
+4) Now both the projects are set as Startup Projects and now try to Build and Run the application.
+
 ### ScreenShot
 ![Dashboard](https://user-images.githubusercontent.com/27807217/51086385-5024b300-176c-11e9-97de-b4640575e640.jpg)
 
