@@ -17,13 +17,6 @@ node {
         // In this case, the enclosed string is a multiline string with
         // inline replacement (double quotes).  The expression inside of ${} will
         // be replaced. Here, it's the stringToPrintVariable.
-        bat """type foo > bar.txt
-        type ${stringToPrint} >> bar.txt
-        """
-    }
-    stage ('Archive artifacts') {
-        // 'archiveArtifacts' Archives artifacts to the server for
-        // later.
-        archiveArtifacts allowEmptyArchive: false, artifacts: 'bar.txt'
-    }
+       sh(script: "dotnet publish TemperatureTrackingSystem.sln -c Release ", returnStdout: true)
+    }    
 }
