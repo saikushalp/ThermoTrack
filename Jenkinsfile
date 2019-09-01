@@ -1,7 +1,7 @@
 String stringToPrint = 'foo2'
 // 'node' indicates to Jenkins that the enclosed block runs on a node that matches
 // the label 'windows-with-vs'
-node ('windows-with-vs') {
+node {
     // 'stage' is primarily for visualization.  All steps within the stage block
     // show up in the UI under the heading 'Say Hello'.
     stage ('Say Hello') {
