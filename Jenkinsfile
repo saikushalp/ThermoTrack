@@ -17,6 +17,6 @@ node {
         // In this case, the enclosed string is a multiline string with
         // inline replacement (double quotes).  The expression inside of ${} will
         // be replaced. Here, it's the stringToPrintVariable.
-       sh(script: "dotnet publish TemperatureTrackingSystem.sln -c Release ", returnStdout: true)
+       sh(script: "dotnet build ", returnStdout: true)
     }    
 }
